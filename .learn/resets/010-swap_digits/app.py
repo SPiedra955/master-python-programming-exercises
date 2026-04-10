@@ -1,9 +1,7 @@
 # Complete the function to return the swapped digits of a given two-digit integer
 def swap_digits(num):
-  n1 = num // 10
-  n2 = num % 10
-  return int(f'{n2}{n1}')
-
+  # Your code here
+  return None
    
 # Invoke the function with any two-digit integer as its argument
-print(swap_digits(79))
+print(swap_digits(30))

@@ -1,9 +1,6 @@
 # Complete the function "digits_sum" so that it prints the sum of a three-digit number
 def digits_sum(num):
-  total = 0
-  for i in str(num):
-    total += int(i)
-  return total
+  return None
 
 
 # Invoke the function with any three-digit number

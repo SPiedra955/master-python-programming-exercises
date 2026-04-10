@@ -1,10 +1,7 @@
 # Complete the function to return the first digit to the right of the decimal point
 def first_digit(num):
-  to_str = str(num)
-  for i in to_str:
-    if i == '.':
-      ind = to_str.index(i)
-      return int(to_str[ind + 1])
+  return None
+
 
 # Invoke the function with a positive real number. ex. 34.33
-print(first_digit(34.22))
+print(first_digit())
